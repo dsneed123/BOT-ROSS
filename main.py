@@ -9,7 +9,7 @@ from datetime import datetime
 import json
 
 # Load environment variables from config.json file
-with open('.gitignore/config.json') as config_file:
+with open('.gitignore/config.json.gitignore') as config_file:
     config = json.load(config_file)
 
 TOKEN = config.get('TOKEN')
